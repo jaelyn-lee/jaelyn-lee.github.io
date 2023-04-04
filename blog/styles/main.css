@@ -108,3 +108,14 @@ table {
         max-height: 20rem;
     }
 }
+
+.css-position {
+  margin: 50px 300px 50px 300px;
+}
+
+@media all and (max-width: 540px) {
+  .css-position-iframe {
+    width: 100rem;
+    height: auto;
+  }
+}

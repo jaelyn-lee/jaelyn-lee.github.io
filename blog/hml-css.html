@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald&amp;family=Roboto+Condensed:wght@300;400;700&amp;display=swap" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <title>Relative, Absolute, and Fixes Positioning</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="images/Logo.png" alt="My logo" width="50">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about-me.html">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#my-inspiration">My Inspiration</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdownbtn" href="#">Portfolio</a>
+                                <div class="dropdown-content">
+                                    <a href="te-houtaewa-template.html">Creat first Blog</a>
+                                    <a href="#">In-depth learning about coding</a>
+                                    <a href="#">TBA</a>
+                                </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://github.com/jaelyn-lee">Github</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-outline-warning">Download CV</button>
+                </div>
+            </div>
+        </nav>
+        <div class="css-position">
+            <h1>CSS Basic - Position</h1>
+            <h2>What are the differences between relative, absolute, and fixed positioning?</h2>
+            <h3>Position</h3>
+            <!--Position위치에 대한 설명을 하고 예시를 집어 넣어 어떻게 나오는지 보여주기-->
+            <p>The position CSS property sets how an alement is positioned in a document.The top, right, bottom, and left properties determine the final location of positioned elements. </p>
+            <h3>Try it</h3>
+            <iframe class="css-position-iframe" src="https://interactive-examples.mdn.mozilla.net/pages/css/position.html" height="400" width="700"></iframe>
+            <h3>Position: Relative;</h3>
+            <p>An element with position: relative; is positioned relative to its normal position. 
+                The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left.
+                The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static.</p>
+            <h4>Position: Relative offset</h4>
+            <p>
+                top: Move the element down relative to the top.</br>
+                bottom: Move the element up relative to the bottom.</br>
+                left: Move the element right relative to the left.</br>
+                right: Move the element left relative to the right.</br>
+            </p>
+            <h3>Position: Absolute;</h3>
+            <p>The element is removed from the normal document flow, and no space is created for the element in the page layout.
+                Its final position is determined by the values of top, right, bottom, and left.</p>
+            <h3>Position: Fixed;</h3>
+            <p>The element is removed from the normal document flow, and no space is created for the element in the page layout. When you scroll the webpage, it will be fixed on the position.</br>
+                This value always creates a new stacking context. In printed documents, the element is placed in the same position on every page.</br>
+            The difference between position fixed vs sticky is that fixed always positions an element relative to the viewport, while sticky behaves lika a regular elements until it reaches the defined offset and then become fixed.</p>
+            <!--put image or gif-->
+        </div>
+    </body>
+</html>
+
+
+<!--What are the differences between relative, absolute, and fixed positioning?-->
+<!--Aside 넣어서 옆에 책갈피 삽입-->
