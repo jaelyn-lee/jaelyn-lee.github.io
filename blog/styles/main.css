@@ -7,6 +7,14 @@ body {
 
 }
 
+p {
+  line-height: 1.625;
+  margin: 16px 0 32px;
+}
+
+.main-page{
+  margin: 50px 300px 50px 300px;
+}
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
@@ -107,6 +115,15 @@ table {
     .card-img-top {
         max-height: 20rem;
     }
+}
+
+code {
+  background: #f9f7fb9c;
+  border: 1px solid #f9f7fb9c;
+  border-radius: 4px;
+  font-size: .9375em;
+  padding: 1px 6px;
+  margin: 5px;
 }
 
 .css-position {
