@@ -118,6 +118,10 @@ code {
 
 /*My inspiration css from here */
 
+.my-inspiration{
+  margin: 50px 300px 50px 300px;
+}
+
 .my-inspiration-heading {
     border-style: solid;
     border-color: black;
@@ -180,11 +184,13 @@ code {
   background-color: rgb(233, 228, 228);
   opacity: .8;
   border-radius: 10px;
-  padding: 10px 50px 0.1rem 50px;
+  padding: 32px 50px 0.1rem 50px;
   margin-bottom: 15px; 
 }
 
-/*my-inspiration css from here*/
-.my-inspiration{
-  margin: 50px 300px 50px 300px;
+/*html-css css from here*/
+
+
+.css-position-box {
+
 }

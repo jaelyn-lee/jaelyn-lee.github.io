@@ -55,31 +55,33 @@
         </nav>
         <div class="css-position">
             <h1>CSS Basic - Position</h1>
-            <h2>What are the differences between relative, absolute, and fixed positioning?</h2>
-            <h3>Position</h3>
-            <!--Position위치에 대한 설명을 하고 예시를 집어 넣어 어떻게 나오는지 보여주기-->
-            <p>The position CSS property sets how an alement is positioned in a document.The top, right, bottom, and left properties determine the final location of positioned elements. </p>
-            <h3>Try it</h3>
-            <iframe class="css-position-iframe" src="https://interactive-examples.mdn.mozilla.net/pages/css/position.html" height="400" width="700"></iframe>
-            <h3>Position: Relative;</h3>
-            <p>An element with <code>position: relative;</code>is positioned relative to its normal position. 
-                The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left.
-                The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static.</p>
-            <h4>Position: Relative offset</h4>
-            <p>
-                <code>top:</code>Move the element down relative to the top.</br>
-                <code>bottom:</code>Move the element up relative to the bottom.</br>
-                <code>left:</code>Move the element right relative to the left.</br>
-                <code>right:</code>Move the element left relative to the right.</br>
-            </p>
-            <h3>Position: Absolute;</h3>
-            <p>The element is removed from the normal document flow, and no space is created for the element in the page layout.
-                Its final position is determined by the values of top, right, bottom, and left.</p>
-            <h3>Position: Fixed;</h3>
-            <p>The element is removed from the normal document flow, and no space is created for the element in the page layout. When you scroll the webpage, it will be fixed on the position.</br>
-                This value always creates a new stacking context. In printed documents, the element is placed in the same position on every page.</br>
-            The difference between position <code>fixed</code>vs<code>sticky</code>is that fixed always positions an element relative to the viewport, while sticky behaves lika a regular elements until it reaches the defined offset and then become fixed.</p>
-            <!--put image or gif-->
+            <div class="css-position-box">
+                <h2>What are the differences between relative, absolute, and fixed positioning?</h2>
+                <h3>What is Position?</h3>
+                <!--Position위치에 대한 설명을 하고 예시를 집어 넣어 어떻게 나오는지 보여주기-->
+                <p>The position CSS property sets how an element is positioned in a document. The top, right, bottom, and left properties determine the final location of positioned elements. </p>
+                <h3>Try it</h3>
+                <iframe class="css-position-iframe" src="https://interactive-examples.mdn.mozilla.net/pages/css/position.html" height="400" width="700"></iframe>
+                <h3>Position: Relative;</h3>
+                <p>An element with<code>position: relative;</code>is positioned relative to its normal position. 
+                    The element is positioned according to the normal flow of the document, and then offset relative to itself based on the values of top, right, bottom, and left.
+                    The offset does not affect the position of any other elements; thus, the space given for the element in the page layout is the same as if position were static.</p>
+                <h4>Position: Relative offset</h4>
+                <p>
+                    <code>top:</code>Move the element down relative to the top.</br>
+                    <code>bottom:</code>Move the element up relative to the bottom.</br>
+                    <code>left:</code>Move the element right relative to the left.</br>
+                    <code>right:</code>Move the element left relative to the right.</br>
+                </p>
+                <h3>Position: Absolute;</h3>
+                <p>The element is removed from the normal document flow, and no space is created for the element in the page layout.
+                    Its final position is determined by the values of top, right, bottom, and left.</p>
+                <h3>Position: Fixed;</h3>
+                <p>The element is removed from the normal document flow, and no space is created for the element in the page layout. When you scroll the webpage, it will be fixed on the position.</br>
+                    This value always creates a new stacking context. In printed documents, the element is placed in the same position on every page.</br>
+                The difference between position<code>fixed</code>vs<code>sticky</code>is that fixed always positions an element relative to the viewport, while sticky behaves lika a regular elements until it reaches the defined offset and then become fixed.</p>
+                <!--put image or gif--> 
+            </div>
         </div>
     </body>
 </html>
