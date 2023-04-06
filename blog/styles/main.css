@@ -1,5 +1,4 @@
 /*All html css from here */
-
 body {
     background: #FEAC5E;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
@@ -13,93 +12,62 @@ p {
   margin: 16px 0 32px;
 }
 
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: 12px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+/*index.html page css from here*/
+
 .main-page{
   margin: 50px 300px 50px 300px;
 }
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 50%;
-  }
-  
-  td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
 
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    font-size: 12px;
-  }
-  
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-  }
-  .intro-img {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    height: auto;
-  }
-
-/*My inspiration css from here */
-
-.my-inspiration-heading {
-    border-style: solid;
-    border-color: black;
-    margin: 50px;
-    padding: 20px 0 20px 0;
-    font-size: 50px;
-    background-color: #dddddd;
-    opacity: 85%;
+.intro-img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+  height: auto;
 }
 
-.my-inspiration-card {
-    margin: 0 50px 0 50px;
-}
-.card-title {
-    color: palevioletred;
-}
-
-.card-img-top{
-    height: 500px;
-    width: auto;
+.connect-with-me {
+  display: flex;
+  justify-content: space-around;
+  width:25vw;
+  margin: 5px;
 }
 
-.connect-with-me-icon {
-    display: block;
-    justify-content: center;
-    width:5vw;
-  }
+.icon {
+  width: 500px;
+}
 
 @media all and (max-width: 500px) {
     body{
@@ -129,6 +97,30 @@ code {
   margin: 5px;
 }
 
+/*My inspiration css from here */
+
+.my-inspiration-heading {
+    border-style: solid;
+    border-color: black;
+    margin: 50px;
+    padding: 20px 0 20px 0;
+    font-size: 50px;
+    background-color: #dddddd;
+    opacity: 85%;
+}
+
+.my-inspiration-card {
+    margin: 0 50px 0 50px;
+}
+.card-title {
+    color: palevioletred;
+}
+
+.card-img-top{
+    height: 500px;
+    width: auto;
+}
+
 .css-position {
   margin: 50px 300px 50px 300px;
 }
@@ -139,6 +131,12 @@ code {
     height: auto;
   }
 }
+/*about-me css from here*/
+
+.about-me {
+  margin: 50px 300px 50px 300px;
+}
+
 
 /*learning-plan css from here*/
 
@@ -152,4 +150,22 @@ code {
   border-radius: 10px;
   padding: 10px 50px 0.1rem 50px;
   margin-bottom: 15px;
+}
+
+/*identity-values css from here*/
+.identity-values{
+  margin: 50px 300px 50px 300px;
+}
+
+.identity-values-box {
+  background-color: rgb(233, 228, 228);
+  opacity: .8;
+  border-radius: 10px;
+  padding: 10px 50px 0.1rem 50px;
+  margin-bottom: 15px; 
+}
+
+/*my-inspiration css from here*/
+.my-inspiration{
+  margin: 50px 300px 50px 300px;
 }
