@@ -58,16 +58,35 @@ p {
   height: auto;
 }
 
-.connect-with-me {
-  display: flex;
-  justify-content: space-around;
-  width:25vw;
-  margin: 5px;
+.inspiration-text {
+  color: black;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-decoration: none;
 }
 
-.icon {
-  width: 500px;
+.inspiration-text:hover {
+  color: transparent;
+  transition: 500ms ease;
 }
+
+.icons {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 600px 0 600px;
+  padding: 50px 0 50px 0;
+  background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+  background-clip: text;
+  -webkit-background-clip: text;
+  text-decoration: none;
+}
+
+.icon:hover{
+  color: transparent;
+  transition: 500ms ease;
+}
+
 
 @media all and (max-width: 500px) {
     body{
