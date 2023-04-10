@@ -194,3 +194,26 @@ code {
 .css-position-box {
 
 }
+
+/*emotional-intelligence css from here*/
+.emotional-intelligence{
+  margin: 50px 300px 50px 300px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
