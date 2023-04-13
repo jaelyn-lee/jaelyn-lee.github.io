@@ -50,6 +50,12 @@ p {
   margin: 50px 300px 50px 300px;
 }
 
+@media all and (max-width: 540px) {
+  .main-page{
+    margin: 50px;
+  }
+}
+
 .intro-img {
   display:block;
   margin-left: auto;
