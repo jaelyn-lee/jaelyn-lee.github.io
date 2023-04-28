@@ -62,7 +62,7 @@ p {
   margin: 50px 300px 50px 300px;
 }
 
-@media all and (max-width: 540px) {
+@media all and (max-width: 800px) {
   .body-margin{
     margin: 50px;
   }
