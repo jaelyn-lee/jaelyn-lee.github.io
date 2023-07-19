@@ -1,7 +1,7 @@
 export default function AboutMe() {
   return (
     <div>
-      <div className="flex items-center py-5 sm:flex-row">
+      <div className="lg:flex lg:items-center py-5">
         <div className=" pr-5">
           <h1 className="font-extrabold text-4xl pb-2">About Me</h1>
           <p className="">
@@ -79,7 +79,7 @@ export default function AboutMe() {
           </div>
         </div>
         <img
-          className="mx-auto w-96"
+          className="mx-auto w-auto md:w-48 lg:w-96"
           src="/images/jaelyn.jpeg"
           alt="smiling-Jaelyn-toward-friends"
         ></img>
