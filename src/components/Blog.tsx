@@ -21,7 +21,7 @@ export default function Blog() {
           <div className="flex items-center">
             <p>Project link:</p>
             <a
-              href="https://www.figma.com/file/9EtZVQj7f2OW3bV9EruC8S/Design-your-fitness?type=design&node-id=0%3A1&mode=design&t=6EJkFzNRnbo6Zlis-1"
+              href="https://github.com/jaelyn-lee/jaelyn-lee.github.io2"
               className=" text-red-500 underline hover:text-yellow-400"
             >
               https://github.com/jaelyn-lee/jaelyn-lee.github.io2
