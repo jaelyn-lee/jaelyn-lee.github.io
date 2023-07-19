@@ -7,13 +7,13 @@ export default function Pinkeye() {
       </div>
       <div className="flex py-2">
         <video
-          src="/public/videos/pinkeye-demo.mp4"
+          src="public/videos/pinkeye-quiz-master-demo.mp4"
           autoPlay={false}
           controls
-          className="w-80"
+          className="w-56"
         ></video>
         <div className="pl-5">
-          <p>
+          <p className="pb-2">
             This is a simple quiz app with an arcade theme and funny sound
             effects to interact with users. I worked on the front-end part,
             rendering the quiz to the page and defining the conditions for

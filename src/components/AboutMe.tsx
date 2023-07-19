@@ -62,7 +62,7 @@ export default function AboutMe() {
                   ></path>
                 </svg>
               </a>
-              <a href="#">
+              <a href="https://discordapp.com/users/1087192391087300700">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="3.5em"

@@ -10,10 +10,10 @@ export default function Neighbours() {
       </div>
       <div className="flex py-2">
         <video
-          src="public/videos/neighbours-demo.mp4"
+          src="/videos/neighbours-demo.mp4"
           autoPlay={false}
           controls
-          className=" w-80"
+          className="w-56"
         ></video>
         <div className="pl-5">
           <p className="pb-2">

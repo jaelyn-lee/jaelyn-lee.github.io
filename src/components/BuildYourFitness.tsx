@@ -1,6 +1,6 @@
 export default function BuildYourFitness() {
   return (
-    <div className="bg-background opacity-80 rounded-md p-2">
+    <div className="bg-background opacity-80 rounded-md p-2 mb-2">
       <div className="flex items-center">
         <h1 className=" font-semibold text-lg">Build your Fitness</h1>
         <h1>
@@ -11,10 +11,10 @@ export default function BuildYourFitness() {
         <img
           src="/public/images/build-your-fitness.png"
           alt="neighbours"
-          className="w-80"
+          className="w-56"
         />
-        <div className="pl-5">
-          <p>
+        <div className="pl-5 mb-2">
+          <p className="pb-2">
             This app is currently under development. It is designed for users
             who want to start exercising but are not yet confident in planning
             their own workout routines. The app will generate a workout plan
