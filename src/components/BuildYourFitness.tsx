@@ -1,17 +1,17 @@
 export default function BuildYourFitness() {
   return (
     <div className="bg-background opacity-80 rounded-md p-2 mb-2">
-      <div className="md:flex items-center">
+      <div className="sm:flex sm:items-center">
         <h1 className=" font-semibold text-lg">Build your Fitness</h1>
         <h1>
           &nbsp; / TypeScript, React.js, Redux, SQLite [Personal projects]
         </h1>
       </div>
-      <div className="md:flex py-2">
+      <div className="sm:flex py-2">
         <img
           src="/images/build-your-fitness.png"
           alt="neighbours"
-          className="md:w-56 pb-2 md:pb-0"
+          className="sm:w-56 pb-2 md:pb-0"
         />
         <div className="pl-5 mb-2">
           <p className="pb-2">

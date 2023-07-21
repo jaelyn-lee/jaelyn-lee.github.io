@@ -1,16 +1,16 @@
 export default function Pinkeye() {
   return (
     <div className="bg-background opacity-80 rounded-md p-2 mb-2">
-      <div className="md:flex md:items-center">
+      <div className="sm:flex sm:items-center">
         <h1 className=" font-semibold text-lg">Pinkeye Quiz Master</h1>
         <h1>&nbsp; / TypeScript, React.js, Redux, SQLite [Group project]</h1>
       </div>
-      <div className="md:flex py-2">
+      <div className="sm:flex py-2">
         <video
           src="/videos/pinkeye-quiz-master-demo.mp4"
           autoPlay={false}
           controls
-          className="md:w-56 pb-2 md:pb-0"
+          className="sm:w-56 pb-2 md:pb-0"
         ></video>
         <div className="pl-5">
           <p className="pb-2">

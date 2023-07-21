@@ -1,15 +1,15 @@
 export default function Blog() {
   return (
     <div className="bg-background opacity-80 rounded-md p-2">
-      <div className="md:flex md:items-center">
+      <div className="sm:flex sm:items-center">
         <h1 className=" font-semibold text-lg">Jaelyn's blog</h1>
         <h1>&nbsp; / HTML, CSS, Bootstrap [Personal projects]</h1>
       </div>
-      <div className="md:flex py-2">
+      <div className="sm:flex py-2">
         <img
           src="/images/blog.png"
           alt="neighbours"
-          className="md:w-56 pb-2 md:pb-0"
+          className="sm:w-56 pb-2 md:pb-0"
         />
         <div className="pl-5 mb-2">
           <p className="pb-2">
