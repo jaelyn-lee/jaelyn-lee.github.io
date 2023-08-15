@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "name": "TypeScript",
+    "icon": "SiTypescript"
+  },
+  {
+    "id": 2,
+    "name": "JavaScript",
+    "icon": "SiJavascript"
+  },
+  {
+    "id": 3,
+    "name": "React.js",
+    "icon": "SiReact"
+  },
+  {
+    "id": 4,
+    "name": "Redux",
+    "icon": "SiRedux"
+  },
+  {
+    "id": 5,
+    "name": "Node.js",
+    "icon": "SiNodedotjs"
+  },
+  {
+    "id": 6,
+    "name": "SQLite (with Knex)"
+  },
+  {
+    "id": 7,
+    "name": "REST APIs"
+  },
+  {
+    "id": 8,
+    "name": "HTML",
+    "icon": "SiHtml5"
+  },
+  {
+    "id": 9,
+    "name": "CSS",
+    "icon": "SiCss3"
+  },
+  {
+    "id": 10,
+    "name": "Tailwind",
+    "icon": "SiTailwindcss"
+  },
+  {
+    "id": 11,
+    "name": "Vite",
+    "icon": "SiVite"
+  },
+  {
+    "id": 12,
+    "name": "React Query",
+    "icon": "SiReactquery"
+  }
+]

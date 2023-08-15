@@ -1,16 +1,20 @@
 import AboutMe from './AboutMe.tsx'
 import Header from './Header.tsx'
 import Projects from './Projects.tsx'
+import Contact from './Contact.tsx'
+import Skills from './Skills.tsx'
 
 export default function App() {
   return (
-    <div>
-      <header className="my-3 px-4 lg:px-48">
+    <div className="w-full h-full">
+      <header className="my-3 lg:px-48">
         <Header />
       </header>
-      <main className="bg-gradient-to-r from-turquoise via-lightPurple to-fadeOrange h-auto px-4 lg:px-48 pb-10">
+      <main className="h-auto pb-10">
         <AboutMe />
+        <Skills />
         <Projects />
+        <Contact />
       </main>
     </div>
   )
