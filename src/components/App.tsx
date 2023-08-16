@@ -12,7 +12,6 @@ export default function App() {
       </header>
       <main className="h-auto pb-10">
         <AboutMe />
-        <Skills />
         <Projects />
         <Contact />
       </main>

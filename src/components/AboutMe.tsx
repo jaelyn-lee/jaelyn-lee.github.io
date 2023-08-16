@@ -1,12 +1,14 @@
+import Skills from './Skills'
+
 export default function AboutMe() {
   return (
-    <div className="pt-48">
-      <section className="flex flex-col items-center justify-center pb-10">
+    <div className="pt-28">
+      <section className="flex flex-col items-center justify-center pb-28">
         <div className="text-center pb-5">
           <h1 className="text-4xl font-bold mb-1">
             I am Jaelyn, a Software Developer.
           </h1>
-          <h2 className="text-2xl">
+          <h2 className="text-2xl text-darkGrey">
             I love coding and help people out to blah blah blah
           </h2>
         </div>
@@ -24,6 +26,7 @@ export default function AboutMe() {
           growing in my career as a software developer and to take on new
           challenges along the way.
         </p>
+        <Skills />
       </section>
     </div>
   )
