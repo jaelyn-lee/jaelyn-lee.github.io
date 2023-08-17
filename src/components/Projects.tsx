@@ -26,29 +26,44 @@ export default function Projects() {
   if (error) return <div>An error has occurred</div>
 
   return (
-    <section className="flex flex-col items-center justify-center px-40">
-      <h1 className="font-bold text-2xl">My Recent Projects</h1>
-      <ul>
+    <section className="flex flex-col items-center justify-center px-80">
+      <h1 className="font-bold text-3xl mb-10">My Recent Projects</h1>
+      <ul className="">
         {projects.map((project) => (
-          <div>
-            <div className="flex">
-              <div className="flex-1 w-64">
-                <h1>{project.project_type}</h1>
-                <h1 className="font-semibold text-2xl text-darkGrey">
+          <div className="mb-10">
+            <div className="flex flex-col">
+              <div className="flex flex-col border-t-2 border-black border-solid">
+                <h1 className="font-semibold text-2xl text-center mb-4 mt-4">
                   {project.name}
                 </h1>
-                <h2>({project.languages_used})</h2>
+                <button
+                  disabled
+                  className="border-1 border-light bg-light text-darkGrey rounded-full py-1"
+                >
+                  {project.project_type}
+                </button>
                 <video
                   src={project.video}
                   autoPlay={false}
                   controls
-                  className="md:w-56 pb-2 md:pb-0"
+                  className=""
                 ></video>
+                <h2 className="mt-4 mb-4 font-semibold">
+                  ({project.languages_used})
+                </h2>
               </div>
-              <p className="flex-1 w-96">{project.description}</p>
+              <p className="text-lg">{project.description}</p>
             </div>
-            <p>Project link:</p>
-            <a href={project.link} target="_blank"></a>
+            <p className="mt-4">
+              Project link:
+              <a
+                href={project.link}
+                target="_blank"
+                className="text-purple hover:text-red-400"
+              >
+                {project.link}
+              </a>
+            </p>
           </div>
         ))}
       </ul>

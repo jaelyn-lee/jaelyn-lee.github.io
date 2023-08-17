@@ -10,6 +10,9 @@ module.exports = {
         darkGrey: '#666373',
         lightPurple: '#D8D0F2',
       },
+      fontFamily: {
+        mono: ['Ubuntu', 'sans-serif'],
+      },
     },
   },
   plugins: [],
