@@ -1,8 +1,4 @@
 import { useQuery } from '@tanstack/react-query'
-import Blog from './Blog'
-import BuildYourFitness from './BuildYourFitness'
-import Neighbours from './Neighbours'
-import Pinkeye from './Pinkeye'
 
 interface Project {
   name: string
