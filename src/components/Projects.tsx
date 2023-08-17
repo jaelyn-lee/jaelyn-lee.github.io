@@ -25,7 +25,7 @@ export default function Projects() {
     <section className="flex flex-col items-center justify-center px-80">
       <h1 className="font-bold text-3xl mb-10">My Recent Projects</h1>
       <ul className="">
-        {projects.map((project) => (
+        {projects?.map((project) => (
           <div className="mb-10">
             <div className="flex flex-col">
               <div className="flex flex-col border-t-2 border-black border-solid">
