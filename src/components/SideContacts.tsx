@@ -23,7 +23,7 @@ export default function SideContacts() {
             target="_black"
             className="text-white text-xl sm:text-4xl p-3 flex justify-between items-center item-center w-full"
           >
-            <span className="text-base">LinkedIn</span>
+            <span className="text-base sm:text-base">LinkedIn</span>
             <SiLinkedin />
           </a>
         </li>
