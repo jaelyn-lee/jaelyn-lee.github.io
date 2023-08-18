@@ -11,8 +11,9 @@ export default function SideContacts() {
           <a
             href="https://github.com/jaelyn-lee"
             target="_black"
-            className="text-white text-xl sm:text-4xl p-3"
+            className="text-white text-xl sm:text-4xl p-3 flex justify-between items-center item-center w-full"
           >
+            <span className="text-base">GitHub</span>
             <SiGithub />
           </a>
         </li>
@@ -20,8 +21,9 @@ export default function SideContacts() {
           <a
             href="https://www.linkedin.com/in/jaelyn-lee-35989a1b2/"
             target="_black"
-            className="text-white text-xl sm:text-4xl p-3"
+            className="text-white text-xl sm:text-4xl p-3 flex justify-between items-center item-center w-full"
           >
+            <span className="text-base">LinkedIn</span>
             <SiLinkedin />
           </a>
         </li>
@@ -29,8 +31,9 @@ export default function SideContacts() {
           <a
             href="https://discordapp.com/users/1087192391087300700"
             target="_black"
-            className="text-white text-xl sm:text-4xl p-3"
+            className="text-white text-xl sm:text-4xl p-3 flex justify-between items-center item-center w-full"
           >
+            <span className="text-base">Discord</span>
             <SiDiscord />
           </a>
         </li>
