@@ -17,7 +17,7 @@ import {
 export default function Skills() {
   return (
     <section className="flex flex-col items-center justify-center pt-20">
-      <p className="font-bold text-2xl">Tech skills</p>
+      <p className="font-bold sm:text-2xl text-xl">Tech skills</p>
       <div className="flex flex-wrap items-center justify-center gap-5 mt-5 mb-10 text-5xl font-bold">
         <Tooltip title="TypeScript">
           <IconButton style={{ fontSize: '3rem' }}>

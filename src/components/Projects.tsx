@@ -22,36 +22,35 @@ export default function Projects() {
   if (error) return <div>An error has occurred</div>
 
   return (
-    <section className="flex flex-col items-center justify-center px-80">
-      <h1 className="font-bold text-3xl mb-10">My Recent Projects</h1>
-      <ul className="">
+    <section className="flex flex-col items-center justify-center lg:px-80 md:px-20 px-6">
+      <h1 className="font-bold md:text-3xl sm:text-2xl text-xl mb-10">
+        My Recent Projects
+      </h1>
+      <ul>
         {projects?.map((project) => (
           <div className="mb-10">
             <div className="flex flex-col">
               <div className="flex flex-col border-t-2 border-black border-solid">
-                <h1 className="font-semibold text-2xl text-center mb-4 mt-4">
+                <h1 className="font-semibold md:text-2xl sm:text-xl text-center mb-4 mt-4">
                   {project.name}
                 </h1>
                 <button
                   disabled
-                  className="border-1 border-light bg-light text-darkGrey rounded-full py-1"
+                  className="border-1 border-light bg-light text-darkGrey rounded-full py-1 sm:text-base text-sm sm:font-normal font-light"
                 >
                   {project.project_type}
                 </button>
-                <video
-                  src={project.video}
-                  autoPlay={false}
-                  controls
-                  className=""
-                ></video>
-                <h2 className="mt-4 mb-4 font-semibold">
+                <video src={project.video} autoPlay={false} controls></video>
+                <h2 className="mt-4 mb-4 sm:font-semibold sm:text-base text-xs">
                   ({project.languages_used})
                 </h2>
               </div>
-              <p className="text-lg">{project.description}</p>
+              <p className="md:text-lg sm:text-base text-xs font-light text-justify">
+                {project.description}
+              </p>
             </div>
-            <p className="mt-4">
-              Project link:
+            <div className="sm:flex sm:items-center sm:justify-start sm:flex-row mt-4 sm:text-base text-xs">
+              <p>Project link: {` `}</p>
               <a
                 href={project.link}
                 target="_blank"
@@ -59,7 +58,7 @@ export default function Projects() {
               >
                 {project.link}
               </a>
-            </p>
+            </div>
           </div>
         ))}
       </ul>
