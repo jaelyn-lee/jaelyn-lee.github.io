@@ -22,7 +22,7 @@ const AnimatedText = (props: Text) => {
     },
     visible: {
       y: 0,
-			opacity: '1',
+      opacity: '1',
       color: '#000000',
       transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 0.75 },
     },
@@ -42,7 +42,7 @@ const AnimatedText = (props: Text) => {
 
   return (
     <div>
-      {words.map((word, index) => {
+      {words.map((_word, index) => {
         return (
           // Wrap each word in the Wrapper component
           <Wrapper key={index}>
