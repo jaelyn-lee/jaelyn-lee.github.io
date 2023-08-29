@@ -1,9 +1,17 @@
 [
   {
+    "name": "Design your Fitness",
+    "languages_used": "TypeScript / React.js / React Query / SQLite / Tailwind",
+    "project_type": "Personal projects",
+    "description": "This is a personal project that utilizes React to create a full-stack app. It's designed to help users who want to start exercising, but may not be confident in planning their own workout routines. The app generates a personalized workout plan based on user-provided information such as fitness goals and preferences, while also allowing them to track changes in their weight over time.",
+    "link": "https://github.com/jaelyn-lee/Build-your-fitness",
+    "video": "/videos/design-your-fitness-video.mp4"
+  },
+  {
     "name": "Neighbours",
     "languages_used": "TypeScript / React.js / React Query / SQLite / Tailwind",
     "project_type": "Group project",
-    "description": "This is a social app that can only be used within your neighborhood. Users can check the latest news, weather, activities, and marketplace. We used Auth0 to authenticate users and protect them from faulty users. I worked on front-end development and styling and implemented front-end functionality to display data from the database. I also created a UI component for duplicative components, such as buttons or posts, to prevent writing repetitive code. Through this project, I gained experience in agile methodology using a ticketing system and handling complex data structures. At present, the database is only connected to the classified section. However, efforts are underway to finalize the connection for activities and the market as well.",
+    "description": "This is a social app that can only be used within your neighbourhood. Users can check the latest news, weather, activities, and marketplace. The app uses Auth0 to authenticate users and protect them from malicious users.As a front-end developer, I worked on the styling and front-end functionality to display data from the database. To prevent writing repetitive code, I created a UI component for duplicative components such as buttons or posts. I designed the whole app using Figma.During this project, I gained experience in agile methodology using a ticketing system and handling complex data structures. At present, the database is only connected to the classified section. However, efforts are underway to finalize the connection for activities and the marketplace as well.",
     "link": "https://github.com/jaelyn-lee/Neighbours",
     "video": "/videos/neighbours-video.mp4"
   },
@@ -14,14 +22,6 @@
     "description": "This is a simple quiz app with an arcade theme and funny sound effects to interact with users. I worked on the front-end part, rendering the quiz to the page and defining the conditions for correct and incorrect answers. Through this project, I gained a clear understanding of the functionality related to the front end and the data retrieval of the back end.",
     "link": " https://github.com/jaelyn-lee/PinkeyeQuizmasters",
     "video": "/videos/pinkeye-quiz-master-video.mp4"
-  },
-  {
-    "name": "Design your Fitness",
-    "languages_used": "TypeScript / React.js / React Query / SQLite / Tailwind",
-    "project_type": "Personal projects",
-    "description": "This is a personal project that utilizes React to create a full-stack app. It's designed to help users who want to start exercising, but may not be confident in planning their own workout routines. The app generates a personalized workout plan based on user-provided information such as fitness goals and preferences, while also allowing them to track changes in their weight over time.",
-    "link": "https://github.com/jaelyn-lee/Build-your-fitness",
-    "video": "/videos/design-your-fitness-video.mp4"
   },
   {
     "name": "Jaelyn's blog",
