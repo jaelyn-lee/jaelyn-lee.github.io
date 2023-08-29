@@ -22,10 +22,12 @@ export default function AboutMe() {
           Hi, I’m Jaelyn. Nice to meet you.
         </h1>
         <p className="text-justify md:text-xl text-sm font-light">
-          After completing a web development course, I have been working on my
-          personal projects and acquiring new tech skills. I am goal-oriented,
+          I started coding as a hobby and quickly realised my passion for it,
+          and spent any free moment studying on my own. Eventually, I
+          transferred my career to software development by studying at Dev
+          Academy and now I am here as a developer. I am goal-oriented,
           naturally curious, and continuously striving to improve my skills. I
-          challenge myself to demonstrate my grit. I am excited to continue
+          challenge myself to demonstrate my grit and consistency. I am excited to continue
           growing in my career as a software developer and to take on new
           challenges along the way.
         </p>
