@@ -12,7 +12,7 @@ export default function Header() {
             type="button"
             className="bg-transparent hover:bg-purple text-purple font-semibold hover:text-white py-2 px-4 border border-purple hover:border-transparent rounded"
           >
-            <a href="/cv.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="/CV.pdf" target="_blank" rel="noopener noreferrer">
               Download CV
             </a>
           </button>
