@@ -11,6 +11,7 @@ import {
   SiSqlite,
   SiTailwindcss,
   SiTypescript,
+  SiVite,
 } from 'react-icons/si'
 
 export default function Skills() {
@@ -66,6 +67,11 @@ export default function Skills() {
         <Tooltip title="Tailwind">
           <IconButton style={{ fontSize: '3rem' }}>
             <SiTailwindcss />
+          </IconButton>
+        </Tooltip>
+        <Tooltip title="Vite">
+          <IconButton style={{ fontSize: '3rem' }}>
+            <SiVite />
           </IconButton>
         </Tooltip>
         <Tooltip title="React Query">
