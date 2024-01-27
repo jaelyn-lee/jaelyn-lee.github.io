@@ -7,9 +7,6 @@ export default function AboutMe() {
       <section className="flex flex-col items-center justify-center pb-28">
         <div className="text-center pb-10 md:px-20">
           <TextAnimation />
-          {/* <h1 className="md:text-4xl text-2xl font-bold mb-1">
-            Software Developer / Full Stack Developer
-          </h1> */}
           <h2 className="md:text-2xl text-darkGrey font-light">
             loves coding and collaborating with people to create fun and helpful
             apps for the future.
