@@ -1,10 +1,10 @@
 [
   {
     "name": "Design your Fitness",
-    "languages_used": "TypeScript / React.js / React Query / SQLite / Tailwind",
+    "languages_used": "TypeScript / React.js / React Query / Supabase / Tailwind",
     "project_type": "Personal projects",
     "description": "This is a personal project that utilizes React to create a full-stack app. It's designed to help users who want to start exercising, but may not be confident in planning their own workout routines. The app generates a personalized workout plan based on user-provided information such as fitness goals and preferences, while also allowing them to track changes in their weight over time.",
-    "link": "https://github.com/jaelyn-lee/Build-your-fitness",
+    "link": "https://build-your-fitness.vercel.app/",
     "video": "/videos/design-your-fitness-video.mp4"
   },
   {

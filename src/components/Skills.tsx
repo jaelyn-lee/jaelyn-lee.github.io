@@ -69,11 +69,6 @@ export default function Skills() {
             <SiTailwindcss />
           </IconButton>
         </Tooltip>
-        <Tooltip title="Vite">
-          <IconButton style={{ fontSize: '3rem' }}>
-            <SiVite />
-          </IconButton>
-        </Tooltip>
         <Tooltip title="React Query">
           <IconButton style={{ fontSize: '3rem' }}>
             <SiReactquery />

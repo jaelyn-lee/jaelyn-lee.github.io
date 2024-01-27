@@ -25,18 +25,18 @@ export default function AboutMe() {
           I started coding as a hobby and quickly realised my passion for it,
           and spent any free moment studying on my own. Eventually, I
           transferred my career to software development by studying at Dev
-          Academy and now I am here as a developer. I am goal-oriented,
+          Academy and now I am here as a software engineer. I am goal-oriented,
           naturally curious, and continuously striving to improve my skills. I
-          challenge myself to demonstrate my grit and consistency. I am excited to continue
-          growing in my career as a software developer and to take on new
-          challenges along the way.
+          challenge myself to demonstrate my grit and consistency. I am excited
+          to continue growing in my career as a software developer and to take
+          on new challenges along the way.
         </p>
         <p className="text-justify md:text-xl text-sm mt-2 font-light">
           In my free time, I enjoy staying active and exploring new fitness
           challenges, such as trying out new yoga poses or walking on different
           trails. I also love to read and learn, whether it's about a new
           technology or a different culture. I am excited to continue growing in
-          my career as a software developer and to take on new challenges along
+          my career as a software engineer and to take on new challenges along
           the way.{' '}
         </p>
         <Skills />
