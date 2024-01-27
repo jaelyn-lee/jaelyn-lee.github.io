@@ -11,7 +11,6 @@ import {
   SiSqlite,
   SiTailwindcss,
   SiTypescript,
-  SiVite,
 } from 'react-icons/si'
 
 export default function Skills() {
