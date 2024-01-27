@@ -2,14 +2,12 @@ import { motion } from 'framer-motion'
 import AnimatedText from './AnimatedText'
 
 export default function TextAnimation() {
-  const placeholderText = [
-    { text: 'Software Developer / Full Stack Developer' }
-  ]
+  const placeholderText = [{ text: 'Software Engineer / Full Stack Developer' }]
 
   const container = {
     visible: {
       transition: {
-        staggerChildren: 0.050,
+        staggerChildren: 0.05,
       },
     },
   }
