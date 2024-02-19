@@ -16,8 +16,8 @@
   },
   {
     "id": 4,
-    "name": "Redux",
-    "icon": "SiRedux"
+    "name": "Next.js",
+    "icon": "SiNextdotjs"
   },
   {
     "id": 5,
@@ -56,5 +56,15 @@
     "id": 12,
     "name": "React Query",
     "icon": "SiReactquery"
+  },
+  {
+    "id": 13,
+    "name": "Redux",
+    "icon": "SiRedux"
+  },
+  {
+    "id": 14,
+    "name": "Nest.js",
+    "icon": "SiNestjs"
   }
 ]

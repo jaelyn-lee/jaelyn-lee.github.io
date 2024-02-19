@@ -5,8 +5,17 @@
     "project_type": "Personal projects",
     "description": "This is a personal project that utilizes React to create a full-stack app. It's designed to help users who want to start exercising, but may not be confident in planning their own workout routines. The app generates a personalized workout plan based on user-provided information such as fitness goals and preferences, while also allowing them to track changes in their weight over time.",
     "link": "https://build-your-fitness.vercel.app/",
-    "video": "/videos/design-your-fitness-video.mp4"
+    "video": "/videos/dyf-demo.mp4"
   },
+  {
+    "name": "Astro static website",
+    "languages_used": "Astro / TypeScript / React.js / Tailwind",
+    "project_type": "Personal projects",
+    "description": "This is a static website using Astro. I practiced creating a responsive layout using Astro's features and it helped me to create a fast and optimised static website using modern web development techniques.",
+    "link": "https://github.com/jaelyn-lee/astro-website",
+    "video": "/videos/astro-website.mp4"
+  },
+
   {
     "name": "Neighbours",
     "languages_used": "TypeScript / React.js / React Query / SQLite / Tailwind",

@@ -4,7 +4,7 @@ interface Project {
   name: string
   languages_used: string
   project_type: string
-  video: string
+  video?: string
   description: string
   link: string
 }
@@ -40,7 +40,11 @@ export default function Projects() {
                 >
                   {project.project_type}
                 </button>
-                <video src={project.video} autoPlay={false} controls></video>
+                {project.video ? (
+                  <video src={project.video} autoPlay={false} controls></video>
+                ) : (
+                  <></>
+                )}
                 <h2 className="mt-4 mb-4 sm:font-semibold sm:text-base text-xs">
                   ({project.languages_used})
                 </h2>

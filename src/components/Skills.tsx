@@ -12,6 +12,8 @@ import {
   SiTailwindcss,
   SiTypescript,
   SiVite,
+  SiNextdotjs,
+  SiNestjs,
 } from 'react-icons/si'
 
 export default function Skills() {
@@ -32,6 +34,16 @@ export default function Skills() {
         <Tooltip title="React">
           <IconButton style={{ fontSize: '3rem' }}>
             <SiReact />
+          </IconButton>
+        </Tooltip>
+        <Tooltip title="Next.js">
+          <IconButton style={{ fontSize: '3rem' }}>
+            <SiNextdotjs />
+          </IconButton>
+        </Tooltip>
+        <Tooltip title="Nest.js">
+          <IconButton style={{ fontSize: '3rem' }}>
+            <SiNestjs />
           </IconButton>
         </Tooltip>
         <Tooltip title="Redux">
