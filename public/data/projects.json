@@ -1,5 +1,13 @@
 [
   {
+    "name": "Shoppy",
+    "languages_used": "TypeScript / React.js / React Query / Firebase / Tailwind / Cloudinary",
+    "project_type": "Personal projects",
+    "description": "Basic shopping website",
+    "link": "https://github.com/jaelyn-lee/shoppy",
+    "video": "/videos/shoppy.mp4"
+  },
+  {
     "name": "Design your Fitness",
     "languages_used": "TypeScript / React.js / React Query / Supabase / Tailwind",
     "project_type": "Personal projects",
